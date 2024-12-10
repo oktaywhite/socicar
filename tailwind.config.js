@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./index.html", "./src/**/*.{html,js}"],
   mode: 'jit',
   darkMode: 'class',
   theme: 
@@ -20,8 +20,8 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
-        socicar: ['Urbanist', 'sans-serif'],
-        syne: ['Syne', 'sans-serif'],
+        lexend: ['Lexend Deca', 'sans-serif'],
+        kalnia: ['Kalnia', 'sans-serif'],
       },
 
       colors: {
@@ -29,12 +29,11 @@ module.exports = {
         'caqua': '#00FFEA',
         'cblue': '#00B2FF',
         //black & white
-        'cblack': '#0D0C0E',
+        'cblack': '#22262A',
         'ctextblack': '#464646',
         'clight-gray': "#F2F2F2",
         'cgray': "#A0A0A0",
         'cdarkgray': '#414141',
-        'buttonblack': '#22262A',
         //badges
         //positive
         'badge-light-green': '#CCF3D7',
