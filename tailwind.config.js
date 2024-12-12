@@ -22,6 +22,8 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
         lexend: ['Lexend Deca', 'sans-serif'],
         kalnia: ['Kalnia', 'sans-serif'],
+        michroma: ['Michroma', 'sans-serif'],
+        syne: ['Syne', 'sans-serif'],
       },
 
       colors: {

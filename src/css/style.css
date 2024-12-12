@@ -58,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem!important;
+    gap: 2rem !important;
 }
 
 .nav-right button {
@@ -96,10 +96,104 @@ body {
         text-align: center;
         width: 45%;
         font-size: 1.3rem;
-        color: #919191 ;
+        color: #919191;
 
         span {
             font-style: italic;
+        }
+    }
+}
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+    button {
+        padding: 20px 40px;
+        font-size: 1.1rem;
+    }
+}
+
+.services {
+    background-image: url("../assets/background.svg");
+    background-color: #22262A;
+    transform: skew(0deg, 1deg);
+    margin-top: 30px;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .description {
+        transform: skew(0deg, -1deg);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        h1 {
+            color: #fff;
+            font-size: 3.6rem;
+            width: 50%;
+        }
+
+        p {
+            color: #919191;
+            font-size: 1.2rem;
+            width: 50%;
+        }
+    }
+}
+
+.services-section {
+    transform: skew(0deg, -1deg);
+
+    h3 {
+        color: #d4d4d4;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    .services-items {
+        display: flex;
+        gap: 1.5rem;
+
+        .services-item {
+            border-radius: 15px;
+            background-color: #24282C;
+            border: solid 1px #66768533;
+            color: #f3f3f3;
+            text-align: center;
+            padding: 15px;
+            transition: all .3s ease-in-out;
+
+            h4 {
+                font-size: 1.3rem;
+                padding-bottom: 20px;
+                font-weight: 500;
+            }
+
+            img {
+                width: 225px;
+                transition: all .3s ease-in-out;
+            }
+        }
+
+        .services-item:hover {
+            transform: scale(1.1);
+            z-index: 10;
         }
     }
 }
